@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      h3{
+        border:2px solid;
+        width:155px;
+        text-align:center;
+        font-weight:normal;
+      }
+      button{
+         background-color:gray;
+         color: black;
+         border: solid black 2px;
+         width:100%;
+         font-weight:bold;
+      }
+      input{
+        width:110px;
+        border: solid black 2px;
+      }
+      </style>
+
+      <script>
+        function ekrana_yaz(sayi)
+        {
+          document.getElementById("sonuc").value+=sayi
+        }
+        function ekran_temizle()
+        {
+          document.getElementById("sonuc").value=""
+        }
+
+        function hesapla()
+        {
+          // eval referans = https://www.vikikod.com/detail/19/javascriptte-eval-fonksiyonu
+          var value = document.getElementById("sonuc").value
+          var result = eval(value)
+          document.getElementById("sonuc").value = result
+        }
+
+
+      </script>
+  </head>
+
+  <body>
+    <h3>Hesap Makinesi</h3>
+    <table border="1">
+      <tr>
+        <td colspan="3"><input id="sonuc"type="text"/></td>
+        <td><button type="button" onclick="ekran_temizle()">C</button></td>
+      </tr>
+
+      <tr>
+        <td><button type="button" onclick="ekrana_yaz('1')">1</button></td>
+        <td><button type="button" onclick="ekrana_yaz('2')">2</button></td>
+        <td><button type="button" onclick="ekrana_yaz('3')">3</button></td>
+        <td><button type="button" onclick="ekrana_yaz('/')">/</button></td>
+      </tr>
+
+      <tr>
+        <td><button type="button" onclick="ekrana_yaz('4')">4</button></td>
+        <td><button type="button" onclick="ekrana_yaz('5')">5</button></td>
+        <td><button type="button" onclick="ekrana_yaz('6')">6</button></td>
+        <td><button type="button" onclick="ekrana_yaz('-')">-</button></td>
+      </tr>
+
+      <tr>
+        <td><button type="button" onclick="ekrana_yaz('7')">7</button></td>
+        <td><button type="button" onclick="ekrana_yaz('8')">8</button></td>
+        <td><button type="button" onclick="ekrana_yaz('9')">9</button></td>
+        <td><button type="button" onclick="ekrana_yaz('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" onclick="ekrana_yaz('.')">.</button></td>
+        <td><button type="button" onclick="ekrana_yaz('0')">0</button></td>
+        <td><button type="button" onclick="hesapla()">=</button></td>
+        <td><button type="button" onclick="ekrana_yaz('*')">*</button></td>
+      </tr>
+    </table>
+  </body>
+  
+</html>
