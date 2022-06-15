@@ -7,3 +7,5 @@ Bu hafta tamamlanan konu başlıkları:
 4- Form with State
 5- Routing
 6- Axios
+
+![](https://github.com/muratfidann11/LC-Waikiki-React.js/blob/main/HW6/axios-app.gif)
