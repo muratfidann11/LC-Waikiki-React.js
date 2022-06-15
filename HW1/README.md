@@ -21,4 +21,4 @@ Bu hafta tamamlanan konu başlıkları: <br/>
 19-Geolocation API <br/>
 20-LocalStorage <br/>
 
-![Screenshot](hesap-makinesi-ss.png)
+![](https://github.com/muratfidann11/LC-Waikiki-React.js/blob/main/HW1/basic-calculator.gif)
