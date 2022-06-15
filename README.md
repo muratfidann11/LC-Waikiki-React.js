@@ -1,9 +1,8 @@
 # LC-Waikiki-React.js
 LC Waikiki React.js Programı kapsamında yapılan çalışmalar bu repo altında bulunmaktadır.<br />
-HW1 ->[Calculator](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW1)
-HW2 -> Basic html-css kullanılarak yapılan Sudoku Arayüzü <br />
-HW3 -> Basic bootstrap4 kullanılarak yapılan Kişisel Websitesi <br />
-HW4 -> Basic javascript kullanılarak yapılan Random Gallery <br />
-HW5 -> Basic React.js kullanılarak yapılan Hava Durumu Derece Dönüştürücü <br />
-HW6 -> Basic React.js kullanılarak yapılan Axios Practice <br />
-
+HW1 ->[Calculator](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW1) <br />
+HW2 ->[Sudoku](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW2) <br />
+HW3 ->[Personal Website](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW3) <br />
+HW4 ->[Random Gallery](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW4) <br />
+HW5 ->[Weather Converter](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW5) <br />
+HW6 ->[Axios Practice](https://github.com/muratfidann11/LC-Waikiki-React.js/tree/main/HW6) <br />
