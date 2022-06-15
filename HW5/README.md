@@ -8,3 +8,4 @@ Bu hafta tamamlanan konu başlıkları:
 6- State
 
 
+![Screenshot](hava-durumu-ss.png)
